@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.centert {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.font {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.h1font {
+  font-family: "Libre Barcode 128 Text", cursive;
+}
+
+article {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  padding: 25px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+h2 {
+  padding: 25px;
+  background-color: pink;
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 25px;
+  background-color: rgb(2, 192, 144);
+}
+
+h4 {
+  text-align: center;
+}
+
+article {
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: rgb(2, 192, 144);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(11, 131, 139);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bbg {
+  background-color: black;
+}
+
+.pdng {
+  padding: 100px;
+}
+
+.pdng50 {
+  padding: 50px;
+}
+
+img {
+  width: 400px;
+}
+
+@media (max-width: 500px) {
+  img {
+    width: 250px;
+  }
+}
+
+.bg {
+  background-image: url("AnimatedBackGroundSky.gif");
+  background-repeat: repeat-xy;
+}
+
+body {
+  background-image: url("AnimatedBackGroundSky.gif");
+  background-repeat: repeat-xy;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.xbox {
+  display: flex;
+  justify-content: space-evenly;
+}
