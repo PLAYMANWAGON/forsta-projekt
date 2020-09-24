@@ -4,8 +4,8 @@
 }
 
 body {
-  background: url("sky.gif") right top repeat-y fixed,
-    url("sky.gif") left top repeat-y fixed;
+  background: url("sky.gif") repeat-y scroll,
+    url("sky.gif") right repeat-y scroll;
 }
 
 .center {
@@ -94,24 +94,6 @@ img {
   img {
     width: 250px;
   }
-}
-
-.bg {
-  background-image: url("sky.gif");
-  background-position: top right;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
-}
-.bgl {
-  background-image: url("sky.gif");
-  background-position: top left;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
-}
-
-body {
-  background-image: url("AnimatedBackGroundSky.gif");
-  background-repeat: repeat-xy;
 }
 
 .flexbox {
