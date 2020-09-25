@@ -6,3 +6,25 @@
 body {
   background-color: black;
 }
+
+.banner {
+  width: 1200px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: stretch;
+}
+
+.center {
+  text-align: center;
+}
+
+.playman {
+  width: 700px;
+  position: relative;
+  display: inline-block;
+
+  .playman .img-top {
+  }
+}
