@@ -5,7 +5,14 @@
 
 body {
   background: url("sky.gif") repeat-y scroll,
-    url("sky.gif") right repeat-y scroll;
+    url("sky.gif") right repeat-y scroll,
+    url("pattern.webp") left top repeat fixed;
+}
+
+@media (max-width: 1070px) {
+  body {
+    background: url("pattern.webp") left top repeat fixed;
+  }
 }
 
 .center {
