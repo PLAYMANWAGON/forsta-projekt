@@ -21,10 +21,20 @@ body {
 }
 
 .playman {
+  left: -120px;
   width: 700px;
   position: relative;
   display: inline-block;
+}
 
-  .playman .img-top {
-  }
+.playman .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.playman:hover .img-top {
+  display: inline;
 }
