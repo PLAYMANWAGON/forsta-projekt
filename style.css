@@ -7,12 +7,29 @@ body {
   background: url("sky.gif") repeat-y scroll,
     url("sky.gif") right repeat-y scroll,
     url("pattern.webp") left top repeat fixed;
+    overflow: hidden;
+
 }
 
 @media (max-width: 1070px) {
   body {
     background: url("pattern.webp") left top repeat fixed;
+    
   }
+}
+
+html {
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+  background: transparent;
+}
+
+.cursor {
+  cursor: url("cursor.png"), auto;
 }
 
 .center {
@@ -34,6 +51,9 @@ body {
 
 article {
   font-family: "Roboto", sans-serif;
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 h1 {
@@ -60,12 +80,6 @@ h4 {
   text-align: center;
 }
 
-article {
-  padding: 50px;
-  margin: 0 auto;
-  max-width: 500px;
-}
-
 p {
   text-align: justify;
 }
@@ -73,12 +87,12 @@ p {
 a {
   color: rgb(2, 192, 144);
   text-decoration: none;
+  cursor: url("troll.png"), auto;
 }
 
 a:hover {
   color: rgb(11, 131, 139);
   text-decoration: none;
-  cursor: pointer;
 }
 
 .bbg {
@@ -95,6 +109,7 @@ a:hover {
 
 img {
   width: 400px;
+  cursor: url("cursor1.gif"), auto;
 }
 
 @media (max-width: 500px) {

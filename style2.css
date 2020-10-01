@@ -5,36 +5,163 @@
 
 body {
   background-color: black;
+  cursor: url("cursor3.png"), auto;
 }
 
-.banner {
-  width: 1200px;
+h1 {
+  font-size: 64px;
+  padding: 25px;
+  background-color: white;
+  color: #9900ff;
+  text-align: center;
 }
+
+@media (max-width: 580px) {
+  h1 {
+    font-size: 32px;
+    padding: 25px;
+    background-color: white;
+    color: #9900ff;
+    text-align: center;
+  }
+}
+
+h2 {
+  padding: 25px;
+  background-color: #9900ff;
+  margin-bottom: 100px;
+}
+
+h4 {
+  max-width: 500px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ff9900;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+a {
+  color: white;
+}
+
+img about.html{
+  max-width: 400px;
+}
+
+
+footer img {
+  width: 88px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-size: 24px;
+  color: #9900ff;
+  text-align: center;
+}
+
+
+
+
+/* ----- CLASSES ----- */
 
 .flexbox {
   display: flex;
-  justify-content: stretch;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
 }
 
 .center {
   text-align: center;
 }
 
-.playman {
-  left: -120px;
-  width: 700px;
-  position: relative;
-  display: inline-block;
+.pdng {
+  padding: 100px;
 }
 
-.playman .img-top {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
+@media (max-width: 500px) {
+  .pdng {
+    padding: 50px;
+  }
 }
 
-.playman:hover .img-top {
-  display: inline;
+.banner {
+  width: 1200px;
 }
+
+.cont500 {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.cont800 {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+ 
+
+/* ----- ID ----- */
+
+
+#blkbg {
+  background-color: black;
+}
+
+#clrbg {
+  background-image: url("coolbackground.jpg");
+}
+
+@media (max-width: 500px) {
+  #clrbg {
+  background-image: none;
+}
+}
+
+#clrbg p {
+  margin-top: 14px;
+  max-width: 700px;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#clrbg img {
+  max-height: 400px;
+  max-width: 100%;
+  width: auto;
+}
+
+#clrbg h3 {
+    font-size: 24px;
+    background-color: #9900ff;
+    color: #ff9900;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 800px;
+}
+
+#collage {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#chef {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+
+
+
+
